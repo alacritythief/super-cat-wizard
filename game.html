@@ -32,7 +32,7 @@ var score = 0;
 var scoreText;
 var catCounter = 0;
 var clock;
-var totalClock = 30;
+var totalClock = 10;
 var clockText;
 var goverText;
 
@@ -81,8 +81,6 @@ function create() {
     item.inputEnabled = true;
     item.events.onInputDown.add(listener, this);
   }, this);
-
-
 }
 
 if (totalClock < 1) {
@@ -96,12 +94,12 @@ function update() {
 
   if (totalClock < 1) {
     clock.stop();
-    goverText = game.add.text(400, 380, 'YOU ARE A POOR APPRENTICE.', { fontSize: '32px', fill: '#000' });
+    goverText = game.add.text(300, 380, 'YOU ARE A POOR APPRENTICE.', { fontSize: '32px', fill: '#000' });
     this.game.paused = true;
   }
 
   if (cats.countLiving() === 0 && totalClock > 0) {
-    totalClock = 30;
+    totalClock = 10;
 
     adorable = game.add.audio('adorable');
     adorable.play('');
