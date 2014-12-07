@@ -3,7 +3,7 @@ Super-Cat-Wizard
 
 A "Ship-It Saturday" Hackathon project created @ [Launch Academy](http://www.launchacademy.com/).
 
-Made in JavaScript using [Phaser.io](http://phaser.io/).
+Made in JavaScript using [Phaser.io](http://phaser.io/). Game code, artwork, and sounds made by me (Andy Wong).
 
 Installation Instructions:
 --------------------------
