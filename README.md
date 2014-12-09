@@ -10,7 +10,7 @@ Installation Instructions:
 
 * Install Node.js @ [nodejs.org](http://nodejs.org/)
 * `npm install`
-* Run `http-server` in the root super-cat-wizard directory
+* `npm start`
 * Go to [localhost:8080](http://localhost:8080/) in your browser
 * Prepare for adorable.
 
