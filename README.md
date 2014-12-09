@@ -1,6 +1,8 @@
 Super-Cat-Wizard
 ================
 
+[supercatwizard.herokuapp.com](http://supercatwizard.herokuapp.com/)
+
 A "Ship-It Saturday" Hackathon project created @ [Launch Academy](http://www.launchacademy.com/).
 
 Made in JavaScript using [Phaser.io](http://phaser.io/). Game code, artwork, and sounds made by me (Andy Wong).
